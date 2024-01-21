@@ -9,7 +9,7 @@ A prototype device intended to measure a photoplethysmography (PPG) signal and o
 
 Working the system
 Overview 
-Operation of the device may be divided into sections of PPG acquisition, analog signal conditioning, analog-to-digital conversion (ADC), digital signal conditioning, beat detection, beat rejection, abnormal beat checking, clock-mediated time interval recording, and SDNN and RMSSD calculation.
+Operation of the device may be divided into sections of PPG acquisition, analog signal conditioning, analog-to-digital conversion (ADC), digital signal conditioning, beat detection, beat rejection, abnormal beat checking, clock-mediated time interval recording, and SDNN and RMSSD calculation(refer to overview figure).
 PPG Acquisition: Input Sensor Placement and Signal Transduction
 An LED illuminates a human fingertip to obtain a PPG signal—the input of the device. The operating principle of photoplethysmography pertains to the amount of light absorbed and reflected in the microvascular tissue bed, which varies with blood volume. The PPG circuit utilizes a green LED—noted to be less susceptible to motion artifacts and demonstrates increased hemoglobin absorption—and a photoresistor in the reflective mode . The distance between the LED and photoresistor is 5.0 mm. A raw PPG signal is obtained as the output of this section, possessing a magnitude of a few millivolts (mV) as well as noise. 
 
