@@ -41,7 +41,7 @@ Getting Started with Simulink
 To test the Simulink subsystems:
 
 1. Simulation Setup:
-   - Set up your Simulink model(PPG_sensor_module.m) for testing.
+   - Set up your Simulink model(`PPG_sensor_module`) for testing.
    - Configure the Simulink solver to `fixedstepdiscrete`.
    - Set the sampling frequency to 300Hz.
 
@@ -53,4 +53,6 @@ To test the Simulink subsystems:
    - Utilize the provided PPG signal (`PPG_for_simulation`) for simulation testing. This signal is derived from the Capnobase database.
 
 Feel free to customize the content based on additional details or specific instructions in your codebase.
+
+
 
